@@ -1,0 +1,53 @@
+.navBar{
+    height: 80px;
+    width: 100%;
+    padding-top: 5px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-flow: row;
+    background-color: black;
+    align-items: center;
+    box-shadow: 1px 2px 5px black;
+}
+.logo{
+    height: 65px;
+    width: 75px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-left:50px;
+}
+li a{
+    color: #fff;
+}
+.login{
+    position: absolute;
+    right: 15px;
+    color: #AA3235;
+    padding: 2px 5px;
+    border: 1px groove #AA3235;
+    border-radius: 5px;
+}
+.login:active{
+    border:none;
+}
+.pesquisa{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border:none;
+    font-size: 1em;
+    position: relative;
+    left: 5px;
+    width: 100px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #AA3235;
+}
+.pesquisa:focus{
+        border-radius: none;
+        outline: none;
+}
