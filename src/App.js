@@ -16,7 +16,6 @@ export default function App() {
     setForm(!form)
     setLogin(false)
   }
-
   return (
     <>
       <NavBar showForm={showForm} form={form} login={login}/>
