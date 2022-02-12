@@ -1,0 +1,64 @@
+.formLogin{
+ height: 300px;
+ width: 350px;
+ padding: 0 30px;
+ display: flex;
+ flex-flow: column wrap;
+ color: #fff;
+ background-color: black;  
+ justify-content: center;
+ border-radius: 10px;
+}
+.formLogin h1{
+    margin: none;
+    margin-bottom: 40px;
+}
+.formLogin input{
+    margin-bottom: 10px;
+    outline: none;
+}
+.formLogin label{
+    align-self: flex-start;
+}
+.formLogin button{
+    padding:5px 0;
+    font-size: bold;
+}
+
+.prodForm{
+    height: 250px;
+    width: 300px;
+    margin: 5em;
+    border: 2.5px outset darkgray;
+    box-shadow: 0 5px 5px #000;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8%;
+    background-color: rgb(29, 146, 214);
+}
+.prodForm h2{
+    text-shadow: 1px 1px 1px black;
+}
+.btn-prodForm{
+    width:120px;
+    align-self: center;
+    margin-top: 10px;
+    background-color: rgb(0, 130, 206);
+    text-shadow: 1px 1px 1px black;
+    padding: 3px;
+    border-radius: 5px;
+}
+.btn-prodForm:hover{
+    cursor: pointer;
+}
+.prodForm label{
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+.prodForm input{
+    border-radius: 5px;
+    padding: 3px;
+    color:#000;
+}

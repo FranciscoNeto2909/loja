@@ -1,22 +1,14 @@
 import React from 'react'
-import Produto from "./produto/produto"
+import { useSelector } from 'react-redux'
+import Card from './produto/Card'
 import "./style.css"
 
 export default function Body() {
-    return(
-        <main>
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-        </main>
+    const produtos = useSelector(state => { return state })
+
+    return (
+        <div className="container-produtos">
+            {produtos.map((produto, index) => <Card key={index} produto={produto} />)}
+        </div>
     )
 }
