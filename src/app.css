@@ -14,3 +14,51 @@
     border-radius: 5px;
     background-color:  rgb(29, 146, 214);
 }
+.whats{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    box-sizing: content-box;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 35px;
+}
+.insta{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    bottom: 100px;
+    right: 30px;
+    box-sizing: content-box;
+    background:linear-gradient(45deg,#F9D802,#e41243,#6f06c0);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 35px;
+}
+.face{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    bottom: 168px;
+    right: 30px;
+    box-sizing: content-box;
+    background-color: #3b5998;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 35px;
+}
+.fa-whatsapp{
+    margin-top: 12px;
+}
+.fa-instagram{
+    margin-top: 12px;
+}
+.fa-facebook{
+    margin-top: 12px;
+}

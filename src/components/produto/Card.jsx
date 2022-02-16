@@ -1,5 +1,5 @@
 import React from "react"
-import "../style.css"
+import "./style.css"
 
 export default function Produto({ produto }) {
     return (
@@ -7,7 +7,7 @@ export default function Produto({ produto }) {
             <h3>{produto.name}</h3>
             <img src={produto.src} alt="produto" className="imgProduto" />
             <div className="compra">
-                <button className="btnCompra" >comprar</button>
+                <button className="btnCompra">comprar</button>
                 <div className="preco">
                     <h4>R$:</h4>
                     <p>{produto.preco}</p>

@@ -10,4 +10,14 @@
 h1{
     margin-bottom: 15px;
 }
-
+img{
+    height: 150px;
+    width: 100px;
+}
+.inicio{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    align-items: center;
+}

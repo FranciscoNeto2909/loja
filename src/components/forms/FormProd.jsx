@@ -3,15 +3,16 @@ import {addProd} from "../../action/Action"
 import "./form.css"
 import { useDispatch } from "react-redux";
 
-export default function FormProduto(){
+export default function FormProduto({showSuccess}){
     const [name, setName] = useState("")
     const [src, setSrc] = useState("")
     const [preco, setPreco] = useState("")
     const form = {name, src, preco}
     const dispatch = useDispatch()
-    
+
     function handleAddProd(e){
         e.preventDefault()
+        showSuccess()
         dispatch(addProd(form))
         setName("")
         setSrc("")

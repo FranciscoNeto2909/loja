@@ -28,7 +28,7 @@ const INTIAL_STATE = [{
 
 ]
 
-export default function reducer(state = INTIAL_STATE, action ) {
+export const addProdReducer = (state = INTIAL_STATE, action ) => {
     switch (action.type) {
         case types.ADD_PRODUTO:
             return state = [...state, action.payload]

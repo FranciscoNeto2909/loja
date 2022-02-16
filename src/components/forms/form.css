@@ -60,5 +60,6 @@
 .prodForm input{
     border-radius: 5px;
     padding: 3px;
+    outline: none;
     color:#000;
 }
